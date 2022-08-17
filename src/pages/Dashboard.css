@@ -1,0 +1,12 @@
+.dashboard {
+  width: 100vw;
+  height: 91vh;
+  padding: 5rem;
+  background: url("../images/background-3.jpg");
+}
+
+@media (max-width: 82rem) {
+  .dashboard {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,18 @@
+.loader {
+  width: 80rem;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 1.6rem;
+  background-color: white;
+  box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.loader__loader {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.loader__loader--img {
+  width: 40rem;
+}

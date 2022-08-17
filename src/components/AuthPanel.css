@@ -1,0 +1,40 @@
+.auth-panel {
+  max-width: 80rem;
+  height: 50rem;
+  padding: 5rem;
+  border-radius: 5px;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.set-login {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.set_login__action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.set_login__action > .button {
+  margin: 0;
+  width: 15rem;
+  border-radius: 0;
+}
+
+.set-login > .button:hover {
+  background-color: #223459;
+}
+
+@media (max-width: 82rem) {
+  .auth-panel {
+    width: 100%;
+    padding: 2rem;
+  }
+  .set_login__action {
+    flex-direction: column;
+  }
+}

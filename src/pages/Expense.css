@@ -1,0 +1,17 @@
+.expense {
+  background: url("../images/background-2.jpg");
+  padding: 5rem;
+  display: flex;
+  width: 100vw;
+  height: 91vh;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media (max-width: 82rem) {
+  .expense {
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
